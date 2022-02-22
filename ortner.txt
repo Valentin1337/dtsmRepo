@@ -1,3 +1,7 @@
+
+CREATE DATABASE `my_users`;
+USE `my_users`;
+
 CREATE TABLE IF NOT EXISTS `users` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(64) NOT NULL,
